@@ -27,28 +27,28 @@
   border: 2px solid transparent;
   border-image: linear-gradient(
     135deg,
-    #AABF0B 0%,
-    #AABF0B 100%
+    #F2E63D 0%,
+    #F2E63D 100%
   );
   border-image-slice: 1;
   @include supportIE11() {
-    color: #AABF0B !important;
+    color: #F2E63D !important;
     &:hover {
-      color: #261E1E !important;
+      color: #F2E63D !important;
     }
   }
 
   @include respond(phone) {
     background-image: none;
-    border: 2px solid #AABF0B;
-    -webkit-text-fill-color: #AABF0B;
+    border: 2px solid #F2E63D;
+    -webkit-text-fill-color: #F2E63D;
   }
 
   &::after {
     background-image: linear-gradient(
       135deg,
-      #AABF0B 0%,
-      #AABF0B 100%
+      #F2E63D 0%,
+      #F2E63D 100%
     );
 
     @include respond(phone) {
@@ -72,15 +72,15 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: #261E1E;
-  border: 2px solid #261E1E;
+  color: #F2E63D;
+  border: 2px solid #F2E63D;
 
   &::after {
-    background: #261E1E
+    background: #F2E63D
   }
 
   &:hover {
-    color: #D98C5F;
+    color: #011C26;
     text-decoration: none;
 
     &::after {
